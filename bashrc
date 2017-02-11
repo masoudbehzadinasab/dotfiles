@@ -1,9 +1,5 @@
 # STAMPEDE --------------------------------------------------------
 export STAMPEDE="behzadi@stampede.tacc.utexas.edu:"
-export STAMPEDE_HOME="behzadi@stampede.tacc.utexas.edu:/home1/02937/behzadi"
-export STAMPEDE_WORK="behzadi@stampede.tacc.utexas.edu:/work/02937/behzadi"
-export STAMPEDE_GP="behzadi@stampede.tacc.utexas.edu:/work/02937/behzadi/granular_particles/case_studies/"
-export STAMPEDE_IND="behzadi@stampede.tacc.utexas.edu:/work/02937/behzadi/Individual_particles"
 
 # Colors ----------------------------------------------------------
 export TERM=xterm-256color
@@ -55,12 +51,9 @@ alias ...='cd .. ; cd ..'
 #alias sshst='ssh -X behzadi@stampede.tacc.utexas.edu'  
 alias sshst='ssh behzadi@stampede.tacc.utexas.edu'  
 alias sshls='ssh -X behzadi@ls5.tacc.utexas.edu'  
-#alias spring2016='cd ~/Desktop/Academic/PhD_Courses/Spring_2016/'
 alias deactivate='source deactivate'
 alias post-processing='source activate exodus-post-processing'
 alias desktop='cd ~/Desktop/'
-alias granular='cd /Users/masoud/PhD_project/granular_particles/case_studies/'
-alias resume='cd ~/Desktop/Academic/resume/'
 
 # Programs ---------------------------------------------------------
 alias peridigm='/usr/local/Peridigm/bin/Peridigm'
