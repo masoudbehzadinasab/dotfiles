@@ -9,3 +9,8 @@ Create symlinks:
     ln -s ~/.dotfiles/bashrc ~/.bashrc
     ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 ````
+
+To get tmux works properly:
+````
+    brew install reattach-to-user-namespace
+````
